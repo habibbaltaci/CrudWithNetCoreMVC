@@ -1,0 +1,26 @@
+﻿@model Employee
+<a asp-action="Index">View All Employees</a>
+<h2>@Model.Name 's Record</h2>
+
+
+    <p>
+       <b> <label asp-for="Name">Name:</label> </b>
+        <label asp-for="Name" >@Model.Name</label>
+        
+    </p>
+    <p>
+      <b>  <label asp-for="Age">Your Age:</label> </b>
+        <label asp-for="Age">@Model.Age</label>
+    </p>
+    <p>
+       <b> <label asp-for="Salary">Your Salary:</label> </b>
+        <label asp-for="Salary">@Model.Salary</label>
+    </p>
+    <p>
+       <b> <label asp-for="Department">Your Department:</label> </b>
+        <label asp-for="Department">@Model.Department</label>
+    </p>
+    <p>
+      <b>  <label asp-for="Sex">Your Sex:</label></b>
+        <label asp-for="Sex">@Model.Sex</label>
+    </p>
